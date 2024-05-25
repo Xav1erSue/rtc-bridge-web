@@ -1,0 +1,26 @@
+.video-player {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  width: 640px;
+  height: 360px;
+}
+
+.video-player > .local  {
+  height: 100%;
+  width: 100%;
+  object-fit: fill;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.video-player > .remote  {
+  height: 40%;
+  width: 40%;
+  object-fit: fill;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
